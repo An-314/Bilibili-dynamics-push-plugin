@@ -165,7 +165,7 @@ export class dynamics_push extends plugin {
         logger.mark(`[B站动态推送]:共${unique_dynamics.length}条新动态`)
         for (let item of unique_dynamics) {
             let msgList = [
-                `【布布喵喵提醒您：B站动态推送】`,
+                `【喵喵提醒您：B站动态推送】`,
                 `\n${item.title}`,
             ]
             if (item.video_cover) {
