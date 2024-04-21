@@ -18,7 +18,7 @@ let pushGroups = [xxxxxxxxx]
 // 要推送的Botqq
 let Botqq = xxxxxxxxx
 // 推送时间：cron表达式
-let pushtime = `0 1 * * *`
+let pushtime = `1 * * * *`
 // 是否启用无头模式
 let isheadless = true
 // 输入log
