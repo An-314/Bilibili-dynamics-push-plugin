@@ -194,6 +194,9 @@ export class dynamics_push extends plugin {
      * @return {string} 返回计算后的MD5哈希值，格式为32个字符的十六进制数。
      */
     hash(str) {
+        if (str === undefined) {
+            str = "undefined";
+        }
         return crypto.createHash('md5').update(str).digest('hex');
     }
 }
